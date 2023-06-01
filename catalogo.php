@@ -1,73 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Conocenos</title>
-</head>
-<body>
-    <div class="container-hero">
-        <div class="container hero">
-            <div class="customer-support">
-                <i class="fa-thin fa-cupcake"></i>
-                <div class="content-customer-support">
-                    <span class="text">Soporte al cliente</span>
-                    <span class="number">463-643-459</span>
-                </div>
-            </div>
-            <div class="container-logo">
-                <h1 class="logo"><a href="#">Dyan Scape Productos</a></h1>
-            </div>
-            <div class="container-user">
-                <nav>
-                    <ul>
-                        <li><a href="#"><i class="fas fa-search"></i></a></li>
-                        <li><a href="#"><i class="fas fa-user"></i></a></li>
-                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
+<?php
+require_once("vista/parte-superior.php")
 
-    <div class="container-options">
-        <span class="active">Destacados</span>
-        <span>Más recientes</span>
-        <span>Mejores Vendidos</span>
-    </div>
+    ?>
 
-    <div class="container-products">
-        <!-- Producto 1 -->
-        <div class="card-product">
-            <div class="container-img">
-                <img src="img/pulsera.png" alt="Cafe Irish" />
-                <span class="discount">-13%</span>
-                <div class="button-group">
-                    <span>
-                        <i class="fa-regular fa-eye"></i>
-                    </span>
-                    <span>
-                        <i class="fa-regular fa-heart"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-code-compare"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="content-card-product">
-                <h3>Brazalete Pandora</h3>
-                <span class="add-cart">
-                    <i class="fa-solid fa-basket-shopping"></i>
+<div class="container-options">
+    <span class="active">Destacados</span>
+    <span>Más recientes</span>
+    <span>Mejores Vendidos</span>
+</div>
+
+<div class="container-products">
+    <!-- Producto 1 -->
+    <div class="card-product">
+        <div class="container-img">
+            <img src="img/pulsera.png" alt="Cafe Irish" />
+            <span class="discount">-13%</span>
+            <div class="button-group">
+                <span>
+                    <i class="fa-regular fa-eye"></i>
                 </span>
-                <p class="price">$1,683.5 <span>$2,405</span></p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fa-solid fa-code-compare"></i>
+                </span>
             </div>
         </div>
+        <div class="content-card-product">
+            <h3>Brazalete Pandora</h3>
+            <span class="add-cart">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </span>
+            <p class="price">$1,683.5 <span>$2,405</span></p>
+        </div>
+    </div>
 
-       <!-- Producto 2 -->
-       <div class="card-product">
+    <!-- Producto 2 -->
+    <div class="card-product">
         <div class="container-img">
             <img src="img/pulsera.png" alt="Cafe Irish" />
             <span class="discount">-13%</span>
@@ -287,93 +257,5 @@
             <p class="price">$1,683.5 <span>$2,405</span></p>
         </div>
     </div>
-  
-            </div>
-            <div
-<footer class="footer">
-                <div class="container container-footer">
-                    <div class="menu-footer">
-                        <div class="contact-info">
-                            <p class="title-footer">Información de Contacto</p>
-                            <ul>
-                                <li>
-                                    Dirección: 71 Pennington Lane Vernon Rockville, CT
-                                    06066
-                                </li>
-                                <li>Teléfono: 123-456-7890</li>
-                                <li>Fax: 55555300</li>
-                                <li>EmaiL: baristas@support.com</li>
-                            </ul>
-                            <div class="social-icons">
-                                <span class="facebook">
-                                    <i class="fab fa-facebook"></i>
-                                </span>
-                                <span class="twitter">
-                                    <i class="fab fa-twitter"></i>
-                                </span>
-                                <span class="youtube">
-                                    <i class="fab fa-youtube"></i>
-                                </span>
-                                <span class="pinterest">
-                                    <i class="fab fa-pinterest-p"></i>
-                                </span>
-                                <span class="instagram">
-                                    <i class="fab fa-instagram"></i>
-                                </span>
-                            </div>
-                            
-                        </div>
-        
-                        <div class="information">
-                            <p class="title-footer">Información</p>
-                            <ul>
-                                <li><a href="#">Acerca de Nosotros</a></li>
-                                <li><a href="#">Información Delivery</a></li>
-                                <li><a href="#">Politicas de Privacidad</a></li>
-                                <li><a href="#">Términos y condiciones</a></li>
-                                <li><a href="#">Contactános</a></li>
-                            </ul>
-                        </div>
-        
-                        <div class="my-account">
-                            <p class="title-footer">Mi cuenta</p>
-        
-                            <ul>
-                                <li><a href="#">Mi cuenta</a></li>
-                                <li><a href="#">Historial de ordenes</a></li>
-                                <li><a href="#">Lista de deseos</a></li>
-                                <li><a href="#">Boletín</a></li>
-                                <li><a href="#">Reembolsos</a></li>
-                            </ul>
-                        </div>
-        
-                        <div class="newsletter">
-                            <p class="title-footer">Boletín informativo</p>
-        
-                            <div class="content">
-                                <p>
-                                    Suscríbete a nuestros boletines ahora y mantente al
-                                    día con nuevas colecciones y ofertas exclusivas.
-                                </p>
-                                <input type="email" placeholder="Ingresa el correo aquí...">
-                                <button>Suscríbete</button>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="copyright">
-                        <p>
-                            Desarrollado por Programación para el mundo &copy; 2022
-                        </p>
-        
-                        <img src="img/payment.png" alt="Pagos">
-                    </div>
-                </div>
-            </footer>
-        
-        
-            </body>
-        </html>
-        
-        
-        
+
+    </html>
