@@ -31,9 +31,9 @@
                     <nav>
                         <ul>
                             <li><a href="#"><i class="fas fa-search"></i></a></li>
-                            <li><a href="#"><i class="fas fa-user"></i></a></li>
+                            <li><a href="register.php"><i class="fas fa-user"> registro</i></a></li>
+                            <li><a href="login.php"><i class="fas fa-user"> login</i></a></li>
                             <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
-
 
                         </ul>
                     </nav>
@@ -48,7 +48,6 @@
                 <ul class="menu">
                     <li><a href="index.php">Inicio</a></li>
                     <li><a href="conocenos.php">Conocenos</a></li>
-                    <li><a href="catalogo.php">Catalogo</a></li>
                     <li><a href="contactanos.php">Contactános</a></li>
                     <li><a href="tablas.php">Tablas</a></li>
                 </ul>

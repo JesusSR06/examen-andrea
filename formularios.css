@@ -1,0 +1,181 @@
+/* Estilos para el formulario */
+.registro-form {
+    background-color: #ffffff;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .shadow-5-strong {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .p-5 {
+    padding: 1.25rem !important;
+  }
+  
+  .form-title {
+    font-size: 3rem;
+    color: #5d4037;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .form-group {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .form-control {
+    font-size: 1.5rem;
+    color: #5d4037;
+    border-radius: 0.25rem;
+    border: 1px solid #5d4037;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .form-label {
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+    font-size: 1.25rem;
+    color: #5d4037;
+    transition: all 0.3s;
+    pointer-events: none;
+  }
+  
+  .form-control:focus + .form-label,
+  .form-control:not(:placeholder-shown) + .form-label {
+    font-size: 1rem;
+    transform: translateY(-140%);
+    color: #5d4037;
+  }
+  
+  /* Estilos para la fila de los elementos en línea */
+  .row {
+    margin-bottom: 1.5rem;
+  }
+  
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-check {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+  }
+  
+  .form-check-input {
+    margin-right: 0.5rem;
+  }
+  
+  /* Estilos para el enlace */
+  .form-link {
+    color: #5d4037;
+    text-decoration: none;
+  }
+  
+  .form-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el botón de enviar */
+  .btn-primary {
+    background-color: #5d4037;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4c3427;
+  }
+/* Estilos para el formulario de login */
+.login-form {
+    background-color: #f9f5f3;
+    padding: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .login-form-title {
+    font-size: 2.5rem;
+    color: #5d4037;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    font-size: 1.5rem;
+    color: #5d4037;
+    border-radius: 0.25rem;
+    border: 1px solid #5d4037;
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .form-label {
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+    font-size: 1.25rem;
+    color: #5d4037;
+    transition: all 0.3s;
+    pointer-events: none;
+  }
+  
+  .form-control:focus + .form-label,
+  .form-control:not(:placeholder-shown) + .form-label {
+    font-size: 1rem;
+    transform: translateY(-140%);
+    color: #5d4037;
+  }
+  
+  /* Estilos para la fila de los elementos */
+  .row {
+    margin-bottom: 1.5rem;
+  }
+  
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Estilos para el enlace */
+  .form-link {
+    color: #5d4037;
+    text-decoration: none;
+  }
+  
+  .form-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el botón de enviar */
+  .btn-primary {
+    background-color: #5d4037;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4c3427;
+  }
+  
